@@ -41,7 +41,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Vincent Villafuerte | Projects</title>
+        <title>Fareha Hassan | Projects</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."

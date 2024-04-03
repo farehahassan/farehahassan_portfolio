@@ -22,6 +22,7 @@ import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
 import logoDevProtocol from '@/images/logos/devprotocol.png'
+import liftuplogo from '@/images/logos/LOGO.png'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -103,7 +104,7 @@ function Article({ article }) {
 function SocialLink({ icon: Icon, ...props }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-[#674188]" />
+      <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-[#F1D00A]" />
     </Link>
   )
 }
@@ -140,31 +141,31 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Dev Protoocol',
-      title: 'Program Manager',
+      company: 'Freelancing',
+      title: 'Flutter Developer',
       logo: logoDevProtocol,
       start: 'Jan 2022',
-      end: 'Nov 2022',
+      // end: 'Nov 2022',
       // start: '2019',
-      // end: {
-      //   label: 'Present',
-      //   dateTime: new Date().getFullYear(),
-      // },
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
     },
     {
-      company: 'Dev Protocol',
-      title: 'Developer Relations',
-      logo: logoDevProtocol,
-      start: 'Oct 2021',
-      end: '2019',
+      company: 'Liftup AI',
+      title: 'Web Developer',
+      logo: liftuplogo,
+      start: 'Oct 2023',
+      end: 'Apr 2024',
     },
-    {
-      company: 'Dev Protocol',
-      title: 'DevRel Intern',
-      logo: logoDevProtocol,
-      start: 'Jul 2021',
-      end: 'Oct 2021',
-    },
+    // {
+    //   company: 'Dev Protocol',
+    //   title: 'DevRel Intern',
+    //   logo: logoDevProtocol,
+    //   start: 'Jul 2021',
+    //   end: 'Oct 2021',
+    // },
   ]
 
   return (
@@ -207,10 +208,10 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="./Villafuerte-Vincent_Resume.pdf" variant="secondary" className="group mt-6 w-full">
+      {/* <Button href="./Villafuerte-Vincent_Resume.pdf" variant="secondary" className="group mt-6 w-full">
         Download Resume
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
+      </Button> */}
     </div>
   )
 }
@@ -256,10 +257,10 @@ export default function Home({ articles }) {
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-[#674188] sm:text-5xl">
-            Flutter Developer
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-[#F0F0F0] sm:text-5xl">
+            Fareha Hassan | Flutter Developer
           </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-[#66586e]">
+          <p className="mt-6 text-base text-zinc-600 dark:text-[#b3adb6]">
           My career started in web and app development, focusing on user-friendly solutions that blend aesthetics and functionality. Today, I&apos;m passionate about pushing the boundaries of technology in Artificial Intelligence and Robotics, aiming to create intelligent systems that transform our digital landscape. My journey is a constant pursuit of innovation and excellence, and I&apos;m committed to making a meaningful impact in the world of software engineering.
           </p>
           <div className="mt-6 flex gap-6">

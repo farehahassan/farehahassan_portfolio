@@ -29,7 +29,7 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Vincent Villafuerte | Events</title>
+        <title>Fareha Hassan | Events</title>
         <meta
           name="description"
           content="I’ve spoken at events in my local community and been invited to some event talks."

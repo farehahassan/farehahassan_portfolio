@@ -17,9 +17,9 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-[#C3ACD0] dark:hover:text-[#674188]"
+        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-[#C3ACD0] dark:hover:text-[#F1D00A]"
       >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-[#674188]" />
+        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-[#F1D00A]" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Vincent Villafuerte | About</title>
+        <title>Fareha Hassan | About</title>
         <meta
           name="description"
-          content="I’m Vincent Villafuerte also known as vinzvinci. I live in Las Piñas City, Philippines, where I design the future."
+          content="I’m Fareha Hassan a professional Flutter Developer. I live in Hyderabad, Pakistan, where I build apps for both Android and iOS."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -60,10 +60,10 @@ export default function About() {
             </div>
           </div>
           <div className="lg:order-first lg:row-span-2">
-            <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-[#674188] sm:text-5xl">
+            <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-[#F0F0F0] sm:text-5xl">
               I’m Fareha Hassan.
             </h1>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-[#66586e]">
+            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-[#b3adb6]">
               <p>
                 Hey there 👋
               </p>
