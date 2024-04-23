@@ -11,17 +11,32 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'WebX DAO',
+    name: 'Driver Finder',
     description:
-      'We focus on building and talking about possible future usage of web technologies.',
-    link: { href: 'https://github.com/WebXDAO', label: 'github.com/WebXDAO' },
+      'Driver finding application in flutter',
+    link: { href: 'https://github.com/farehahassan', label: 'github.com' },
     logo: logoPlanetaria,
   },
   {
-    name: 'SurPath Hub',
+    name: 'Home Plate',
     description:
-      'Inclusive Open Source Community for Filipino student ',
-    link: { href: 'https://github.com/SurPathHub', label: 'github.com/SurPathHub' },
+      'It is a food delivery app that allows users to order food from restaurants and have it delivered to their doorstep.',
+    link: { href: 'https://github.com/farehahassan', label: 'github.com' },
+    logo: logoAnimaginary,
+  },
+  {
+    name: 'Liftup AI',
+    description:
+      'Front-End of liftup AI website (changed later)',
+    link: { href: 'https://github.com/farehahassan/liftup', label: 'github.com' },
+    link: { href: 'https://liftup-six.vercel.app/', label: 'Web' },
+    logo: logoAnimaginary,
+  },
+  {
+    name: 'Air Closet',
+    description:
+      'Cloths renting application (working on it)',
+    link: { href: 'https://github.com/farehahassan', label: 'github.com' },
     logo: logoAnimaginary,
   },
 ]
@@ -44,12 +59,12 @@ export default function Projects() {
         <title>Fareha Hassan | Projects</title>
         <meta
           name="description"
-          content="Things I’ve made trying to put my dent in the universe."
+          content="Things I’ve made trying to put my dent in the tech universe."
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="Things I’ve made trying to put my dent in the tech universe."
+        intro="I’ve worked on some little projects but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
       >
         <ul
           role="list"
